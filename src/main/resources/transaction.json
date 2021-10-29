@@ -1,0 +1,15 @@
+[{
+"transactionId": "3233232",
+"description" :"Credit Card Payment",
+"amount": 6299.00,
+"currency": "INR",
+"transactionDate":"2021-10-28"
+},
+{
+"transactionId": "3233789",
+"description" :"Shopping",
+"amount": 5478.50,
+"currency": "INR",
+"transactionDate":"2021-10-29"
+}
+]

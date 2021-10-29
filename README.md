@@ -1,4 +1,4 @@
-# mule-graphQL
+# Mule 4 + GraphQL sample app
 
 This is a sample Mule 4 app, with GraphQL implemented on top of it.
 
@@ -34,3 +34,5 @@ curl --location --request GET 'http://localhost:8081/graphql' \
 --data-raw '{"query":"query\r\n{\r\n  account(id:\"12345\"){\r\n      firstName\r\n      lastName\r\n      balances{\r\n          amount\r\n      }\r\n      transactions{\r\n          transactionId\r\n      }\r\n  }\r\n  }","variables":{}}')
 
 ![image](https://user-images.githubusercontent.com/41906513/139392754-25b405eb-f136-411c-a6da-6d97140274d1.png)
+
+Ref : https://github.com/Jitendra85/MuleSoft-GraphQL-Demo
